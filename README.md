@@ -1,11 +1,16 @@
 # Landslide-Exposure-Database (LED)
 
-**Analysis Framework for National Building-Level Landslide Exposure and Socioeconomic Vulnerability**
+**Analysis Framework for National Building-Level Study: Landslide Exposure in the United States**
 
 This repository contains the analysis pipeline and code used to develop the **Landslide Exposure Database (LED)**. The LED is an integrated, high-resolution building inventory designed to characterize the physical and social dimensions of landslide exposure across the conterminous United States, Alaska, and Hawaii.
 
 ## Overview
 Traditional landslide risk assessments often rely on coarse administrative aggregates. This project introduces a multi-scale framework that integrates physical terrain susceptibility with granular human geography. By unifying 128 million building footprints with population and socioeconomic attributes, the LED enables a precise understanding of how physical hazards intersect with social vulnerability.
+* Data sources can be downloaded using Jupyter notebooks found in the [0_Input](0_Input/) folder.
+* Methodology described can be completed using Jupyter notebooks found in the [1_Process](1_Process/) folder.
+* Results are found in [2_Output](2_Output/) folder, which contains figure outputs.
+
+
 
 ## Key Features
 * **Integrated Building Inventory:** A unified dataset created by merging National Structure Inventory (NSI) point data and Overture building footprints.
@@ -30,6 +35,7 @@ The development of the LED follows a three-step process:
 * **Geospatial Tools:** QGIS / ArcGIS Pro
 * **Primary Data Sources:** National Structure Inventory (NSI), USGS, NOAA, U.S. Census Bureau, and Overture Maps Foundation.
 
----
-*This project is part of a PhD dissertation at the University of Washington, Seattle, focusing on characterizing the physical and social dimensions of landslide exposure.*
 
+
+---
+*This project is part of a PhD dissertation at the University of Washington, Seattle, focusing on characterizing the physical and social dimensions of landslide exposure. Development herein is under review for initial submission in a journal paper. We reserve the privacy of the repository until publication.*
