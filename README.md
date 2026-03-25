@@ -1,4 +1,4 @@
-# Landslide-Exposure-Database (LED)
+# Landslide Exposure Database (LED)
 
 **Analysis Framework for National Building-Level Study: Landslide Exposure in the United States**
 
